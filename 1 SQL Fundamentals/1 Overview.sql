@@ -1,0 +1,4 @@
+-- What are Databases?
+-- * Databases are systems that allow users to store and organaze data
+-- * They are useful when dealing with large amounts of data
+--  Why use Databases?
