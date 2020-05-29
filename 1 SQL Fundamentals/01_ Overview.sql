@@ -1,0 +1,11 @@
+-- What are Databases?
+-- * Databases are systems that allow users to store and organaze data
+-- * They are useful when dealing with large amounts of data
+--  Why use Databases?
+-- Databeses:
+--  - Data Integriry
+--  - Can Handle massive amounts of data
+--  - Quickly combine diffrent datasets
+--  - Automate steps for re-use
+--  - Can support data for websites and application
+--  A database is made up of tables, and those tables are made up of rows and columns
