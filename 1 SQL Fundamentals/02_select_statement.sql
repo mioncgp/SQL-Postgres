@@ -26,3 +26,4 @@
 -- Percent(%) for matching any sequence of characters
 -- Underscore (_) for matching any single character
 -- LIKE by itself is case sensative, in the meanwhile ILIKE is not
+
