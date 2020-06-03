@@ -11,3 +11,8 @@
 
 -- FULL OUTER JOIN with WHERE: to produce the set of records unique to Table A and Table B, 
 -- we perform the same full outer join, then exclude the records we don't want from both sides via a WHERE clause
+
+
+-- The UNION operator combines result sets of two or more SELECT statements into a single result set.
+-- Both queries must return the same number of columns.
+-- The corresponding columns in the queries must have compatible data types.
