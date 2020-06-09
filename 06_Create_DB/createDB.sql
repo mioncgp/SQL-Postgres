@@ -17,7 +17,7 @@
 -- You define primary keys through primary key constraints
 -- A table can have one and only one primary key
 -- it is a good practice to add a primary key to every table
--- A foreign key is a filed or group of fields in a table that uniquely identifies a row 
+-- A foreign key is a file or group of fields in a table that uniquely identifies a row 
 -- in another table.
 -- In other words, a forein key is defined in a table that refers to the primary key of the other table
 
@@ -30,3 +30,26 @@
 -- UNIQUE - the value of the column must be unique acorss the whole table
 
 -- Primary Key constraint is the combination of NOT NULL and UNIQUE constraints
+
+
+-- First, you specify the name of the table that you want to insert a new row after
+
+-- First, you specify the name of the table that you want to insert a new row after the INSERT INTO clause
+-- followed by a comma-separated column list.
+
+-- Second, you list a comma-separted value list after the VALUES clause. The value list must be in the same
+-- order as the columns list specified after the table name.
+INSERT INTO table(column1, column2)
+VALUES(value1, value2);
+
+-- To add multiple rows into a table at a time you use the following syntax:
+INSERT INTO table (column1, column2)
+VALUES(value1, value2),
+      (value1, value2);
+
+-- TO insert data that comes from another table, you use the INSERT INTO SELECT statement
+-- as follows: 
+INSERT INTO table
+SELECT column1, column2
+FROM another_table
+WHERE condition;
