@@ -53,3 +53,32 @@ INSERT INTO table
 SELECT column1, column2
 FROM another_table
 WHERE condition;
+
+-- Update method  
+UPDATE table
+SET column1=value1,
+    column2=value2,
+WHERE condition;
+
+-- Delete method
+DELETE FROM table
+WHERE condition;
+
+-- Alter Table
+ALTER TABLE table_name action;
+-- PostgreSQL provides many actions that allow you to:
+-- Add, remove, or rename column
+-- Set default value for the column
+-- Add CHECK constraint to a column
+-- Rename table
+-- The keywords to use will be:
+
+-- ADD COLUMN
+-- DROP COLUMN
+-- RENAME COLUMN
+-- ADD CONSTRAINT
+-- RENAME TO
+
+-- Drop table method
+DROP TABLE [IF EXISTS] table_name
+-- IF EXISTS is an optional statement to avoid errors if a table does not exist
