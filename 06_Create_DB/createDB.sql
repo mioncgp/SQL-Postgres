@@ -82,3 +82,13 @@ ALTER TABLE table_name action;
 -- Drop table method
 DROP TABLE [IF EXISTS] table_name
 -- IF EXISTS is an optional statement to avoid errors if a table does not exist
+
+-- A Check constraint is a kind of constraint that allows you to specify if a value in a column
+-- must meet a specifil requirement
+-- The Check constraint uses a Boolean expression to evaluate the values of a column
+-- If the values of the column pass the check, PSQL will inser or update those values.
+
+-- In database theory, NULL is unknown or missing information
+-- The Null value is diffrent from emptry or zero
+-- For example, we can ask for the email address of  a person, if we don't know, we use the NULL value
+-- in case the person does not have any email address, we can mark it as an empty string.
